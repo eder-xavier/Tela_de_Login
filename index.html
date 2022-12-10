@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indie</title>
+
+    <link rel="stylesheet" href="estilos/style.css">
+
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Indie</h1>
+            <div>
+                <h2>Bem-vindo(a) de volta!</h2>
+                <form action="dados.php" method="post" autocomplete="on">
+
+                    <p>
+                        <input type="email" name="email" id="iemail"
+                        required maxlength="30" autocomplete="email"
+                        placeholder="Digite seu e-mail">
+                    </p>
+
+                    <p>
+                        <input type="password" name="senha" id="isenha"
+                        required min="8" autocomplete="current-password"
+                        placeholder="Digite sua senha">
+                    </p>
+
+                    <p>
+                        <input id="entrar" type="submit" value="Entrar">
+                    </p>
+
+                    <p>
+                        <a id="esqueci" href="#">Esqueceu a senha ?</a>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
